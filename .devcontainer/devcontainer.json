@@ -1,6 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/java:17-bookworm",
   "features": {
-    "ghcr.io/devcontainers-contrib/features/gradle-sdkman:2": {}
+    "ghcr.io/devcontainers-contrib/features/gradle-sdkman:2": {
+      "jdkVersion": "17"
+    }
   }
 }
